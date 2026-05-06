@@ -1,0 +1,105 @@
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f0f8ff; /* 살짝 하늘색 배경 */
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+h2 { color: #2c3e50; margin-bottom: 30px; }
+
+/* 입력창을 깔끔하게 묶어줍니다 */
+.input-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  max-width: 600px;
+  justify-content: center;
+}
+
+.input-box input {
+  width: 100%;  
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+.input-box button {
+  padding: 12px 25px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.input-box button:hover { background-color: #ee5253; }
+
+.bucket-board {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 600px;
+}
+
+BucketItem.css
+
+.bucket-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 6px solid #ff9f43; /* 여행 느낌의 오렌지 포인트 */
+  transition: all 0.3s;
+}
+
+.bucket-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.checkbox { font-size: 1.5rem; }
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.location-badge {
+  font-size: 0.85rem;
+  background-color: #f1f2f6;
+  color: #2f3542;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.activity-text {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  font-weight: 500;
+  transition: all 0.3s;
+}

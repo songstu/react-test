@@ -1,0 +1,58 @@
+.fcard{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+.fcard.flipped{
+    background-color: #e3f2fd;
+    border: 2px solid #2196f3;
+    transform: translateY(-5px);
+}
+.card-con{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    word-break: keep-all;
+}
+.question-text{
+    color: #333;
+}
+.answer-text{
+    color: #2196f3;
+}
+.answer-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.correct-btn{
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.correct-btn:hover{
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+.done-text{
+    color: #888;
+    font-size: 0.9rem;
+    font-weight: bold;
+}

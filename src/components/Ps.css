@@ -1,0 +1,23 @@
+.slider-box{
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: f9f9f9;
+    transition: 0.3s;
+}
+.slider-box:hover{
+    transform: translateY(-5px);
+}
+
+.food-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h3{
+    margin: 15px 0 5px 0;
+}
